@@ -1,22 +1,17 @@
 {
-    "name": "magerahul/module-currencyconverter",
-    "description": "This is magento 2 module which provides usage of custom currency converter API.",
-    "type": "magento2-module",
-    "license": "GPL-3.0",
-    "authors": [
-        {
-            "name": "Rahul Barot",
-            "email": "rahulbarot.rahu@gmail.com"
-        }
+  "name": "avenyra/module-currency-api-converter",
+  "version": "2.0.0",
+  "description": "A Magento 2 module that integrates with currencyapi.com to fetch and import real-time currency exchange rates into your Magento store.",
+  "type": "magento2-module",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
     ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "files": [
-            "registration.php"
-        ],
-        "psr-4": {
-            "MageRahul\\CurrencyApi\\": ""
-        }
+    "psr-4": {
+      "Avenyra\\CurrencyApi\\": ""
     }
+  }
 }
