@@ -1,3 +1,7 @@
+[![Latest Stable Version](http://poser.pugx.org/avenyra/module-currency-api-converter/v)](https://packagist.org/packages/avenyra/module-currency-api-converter)
+[![Total Downloads](http://poser.pugx.org/avenyra/module-currency-api-converter/downloads)](https://packagist.org/packages/avenyra/module-currency-api-converter)
+[![License](http://poser.pugx.org/avenyra/module-currency-api-converter/license)](https://packagist.org/packages/avenyra/module-currency-api-converter)
+
 # Avenyra Currency Converter Module
 
 A Magento 2 module that integrates with [currencyapi.com](https://currencyapi.com/) to fetch and import real-time currency exchange rates into your Magento store.
