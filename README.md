@@ -1,6 +1,6 @@
-[![Latest Stable Version](http://poser.pugx.org/avenyra/module-currency-api-converter/v)](https://packagist.org/packages/avenyra/module-currency-api-converter)
-[![Total Downloads](http://poser.pugx.org/avenyra/module-currency-api-converter/downloads)](https://packagist.org/packages/avenyra/module-currency-api-converter)
-[![License](http://poser.pugx.org/avenyra/module-currency-api-converter/license)](https://packagist.org/packages/avenyra/module-currency-api-converter)
+[![Latest Stable Version](http://poser.pugx.org/avenyra/module-currency-api/v)](https://packagist.org/packages/avenyra/module-currency-api)
+[![Total Downloads](http://poser.pugx.org/avenyra/module-currency-api/downloads)](https://packagist.org/packages/avenyra/module-currency-api)
+[![License](http://poser.pugx.org/avenyra/module-currency-api/license)](https://packagist.org/packages/avenyra/module-currency-api)
 
 # Avenyra Currency Converter Module
 
@@ -22,7 +22,7 @@ A Magento 2 module that integrates with [currencyapi.com](https://currencyapi.co
 ### Via Composer (Recommended)
 
 ```bash
-composer require avenyra/module-currency-api-converter
+composer require avenyra/module-currency-api
 php bin/magento module:enable Avenyra_CurrencyApi
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
