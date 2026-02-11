@@ -18,7 +18,7 @@ A Magento 2 module that integrates with [currencyapi.com](https://currencyapi.co
 ### Via Composer (Recommended)
 
 ```bash
-composer require avenyra/module-currency-api
+composer require avenyra/module-currency-api-converter
 php bin/magento module:enable Avenyra_CurrencyApi
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
